@@ -5,6 +5,7 @@ function findWords(words) {
 
   let result = [];
   for (let word of words) {
+    // converting to lowercase
     const lowerWord = word.toLowerCase();
 
     let row1Match = true;
